@@ -17,7 +17,6 @@ namespace DatingApp.API.Controllers
         public  ValuesController(DataContext context)
         {
             _context = context;
-
         }
         // GET api/values
         [HttpGet]
@@ -46,6 +45,7 @@ namespace DatingApp.API.Controllers
         public void Put(int id, [FromBody] string value)
         {
         }
+
 
         // DELETE api/values/5
         [HttpDelete("{id}")]
